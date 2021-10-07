@@ -4,6 +4,8 @@ import { PropsWithChildren } from "react";
 import { Link, useRouteMatch } from "react-router-dom";
 
 const Box = styled.div({
+  display: "flex",
+  flexFlow: "column",
   backgroundColor: "#22272e",
   border: "1px solid #444c56",
   borderRadius: 6,
