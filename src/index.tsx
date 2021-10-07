@@ -23,6 +23,7 @@ ReactDOM.render(
                 "Segoe UI Emoji";
               font-size: 14px;
               line-height: 1.5;
+              margin: 0;
               color: #adbac7;
               background-color: #22272e;
             }
