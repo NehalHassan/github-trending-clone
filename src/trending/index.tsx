@@ -1,4 +1,4 @@
-import { Link, Switch, Route, useRouteMatch } from "react-router-dom";
+import { Switch, Route, useRouteMatch } from "react-router-dom";
 import { Header } from "./header";
 import { TrendingRepos } from "./repos";
 import { TrendingDev } from "./developers";
