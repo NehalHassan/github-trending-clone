@@ -37,9 +37,12 @@ export const HeaderText = styled.h1({
   a: {
     cursor: "pointer",
     color: "#539bf5",
+    display: "flex",
+    alignItems: "center",
     "&:hover": {
       textDecoration: "underline",
     },
+    span: { marginLeft: 4 },
   },
 });
 
@@ -67,12 +70,16 @@ export const AvatarWrappers = styled.span({
 });
 
 export const Avatar = styled.a({
-  background: "red",
+  background: "#adbac7",
   marginRight: 2,
   textAlign: "center",
   height: 20,
   width: 20,
   borderRadius: "50%",
   overflow: "hidden",
-  border: "1px solid",
+  border: "0.5px solid #adbac7",
+  img: {
+    width: 20,
+    height: 20,
+  },
 });
